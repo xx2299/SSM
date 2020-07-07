@@ -1,0 +1,1122 @@
+% % Averaged biases and coefficient of variation of H_SEP_n and H_EEP_n between models and observation over different time scales
+% H_SEP_n for all models over different time scales
+BCC_CSM_mhpr1=BCC_CSM_mrsosf1_new./(BCC_CSM_hflsf1_new+BCC_CSM_prf1_new);
+BNU_ESM_mhpr1=BNU_ESM_mrsosf1_new./(BNU_ESM_hflsf1_new+BNU_ESM_prf1_new);
+CanESM2_mhpr1=CanESM2_mrsosf1_new./(CanESM2_hflsf1_new+CanESM2_prf1_new);
+CNRM_CM5_mhpr1=CNRM_CM5_mrsosf1_new./(CNRM_CM5_hflsf1_new+CNRM_CM5_prf1_new);
+CSIRO_Mk_mhpr1=CSIRO_Mk_mrsosf1_new./(CSIRO_Mk_hflsf1_new+CSIRO_Mk_prf1_new);
+GFDL_CM3_mhpr1=GFDL_CM3_mrsosf1_new./(GFDL_CM3_hflsf1_new+GFDL_CM3_prf1_new);
+GFDL_ESM2G_mhpr1=GFDL_ESM2G_mrsosf1_new./(GFDL_ESM2G_hflsf1_new+GFDL_ESM2G_prf1_new);
+GFDL_ESM2M_mhpr1=GFDL_ESM2M_mrsosf1_new./(GFDL_ESM2M_hflsf1_new+GFDL_ESM2M_prf1_new);
+HadGEM2_CC_mhpr1=HadGEM2_CC_mrsosf1_new./(HadGEM2_CC_hflsf1_new+HadGEM2_CC_prf1_new);
+HadGEM2_ES_mhpr1=HadGEM2_ES_mrsosf1_new./(HadGEM2_ES_hflsf1_new+HadGEM2_ES_prf1_new);
+inmcm4_mhpr1=inmcm4_mrsosf1_new./(inmcm4_hflsf1_new+inmcm4_prf1_new);
+MIROC5_mhpr1=MIROC5_mrsosf1_new./(MIROC5_hflsf1_new+MIROC5_prf1_new);
+MIROC_ESM_mhpr1=MIROC_ESM_mrsosf1_new./(MIROC_ESM_hflsf1_new+MIROC_ESM_prf1_new);
+MIROC_ESM_CHEM_mhpr1=MIROC_ESM_CHEM_mrsosf1_new./(MIROC_ESM_CHEM_hflsf1_new+MIROC_ESM_CHEM_prf1_new);
+MRI_CGCM3_mhpr1=MRI_CGCM3_mrsosf1_new./(MRI_CGCM3_hflsf1_new+MRI_CGCM3_prf1_new);
+MRI_ESM1_mhpr1=MRI_ESM1_mrsosf1_new./(MRI_ESM1_hflsf1_new+MRI_ESM1_prf1_new);
+NorESM1_M_mhpr1=NorESM1_M_mrsosf1_new./(NorESM1_M_hflsf1_new+NorESM1_M_prf1_new);
+BCC_CSM_mhpr2=BCC_CSM_mrsosf2_new./(BCC_CSM_hflsf2_new+BCC_CSM_prf2_new);
+BNU_ESM_mhpr2=BNU_ESM_mrsosf2_new./(BNU_ESM_hflsf2_new+BNU_ESM_prf2_new);
+CanESM2_mhpr2=CanESM2_mrsosf2_new./(CanESM2_hflsf2_new+CanESM2_prf2_new);
+CNRM_CM5_mhpr2=CNRM_CM5_mrsosf2_new./(CNRM_CM5_hflsf2_new+CNRM_CM5_prf2_new);
+CSIRO_Mk_mhpr2=CSIRO_Mk_mrsosf2_new./(CSIRO_Mk_hflsf2_new+CSIRO_Mk_prf2_new);
+GFDL_CM3_mhpr2=GFDL_CM3_mrsosf2_new./(GFDL_CM3_hflsf2_new+GFDL_CM3_prf2_new);
+GFDL_ESM2G_mhpr2=GFDL_ESM2G_mrsosf2_new./(GFDL_ESM2G_hflsf2_new+GFDL_ESM2G_prf2_new);
+GFDL_ESM2M_mhpr2=GFDL_ESM2M_mrsosf2_new./(GFDL_ESM2M_hflsf2_new+GFDL_ESM2M_prf2_new);
+HadGEM2_CC_mhpr2=HadGEM2_CC_mrsosf2_new./(HadGEM2_CC_hflsf2_new+HadGEM2_CC_prf2_new);
+HadGEM2_ES_mhpr2=HadGEM2_ES_mrsosf2_new./(HadGEM2_ES_hflsf2_new+HadGEM2_ES_prf2_new);
+inmcm4_mhpr2=inmcm4_mrsosf2_new./(inmcm4_hflsf2_new+inmcm4_prf2_new);
+MIROC5_mhpr2=MIROC5_mrsosf2_new./(MIROC5_hflsf2_new+MIROC5_prf2_new);
+MIROC_ESM_mhpr2=MIROC_ESM_mrsosf2_new./(MIROC_ESM_hflsf2_new+MIROC_ESM_prf2_new);
+MIROC_ESM_CHEM_mhpr2=MIROC_ESM_CHEM_mrsosf2_new./(MIROC_ESM_CHEM_hflsf2_new+MIROC_ESM_CHEM_prf2_new);
+MRI_CGCM3_mhpr2=MRI_CGCM3_mrsosf2_new./(MRI_CGCM3_hflsf2_new+MRI_CGCM3_prf2_new);
+MRI_ESM1_mhpr2=MRI_ESM1_mrsosf2_new./(MRI_ESM1_hflsf2_new+MRI_ESM1_prf2_new);
+NorESM1_M_mhpr2=NorESM1_M_mrsosf2_new./(NorESM1_M_hflsf2_new+NorESM1_M_prf2_new);
+BCC_CSM_mhpr3=BCC_CSM_mrsosf3_new./(BCC_CSM_hflsf3_new+BCC_CSM_prf3_new);
+BNU_ESM_mhpr3=BNU_ESM_mrsosf3_new./(BNU_ESM_hflsf3_new+BNU_ESM_prf3_new);
+CanESM2_mhpr3=CanESM2_mrsosf3_new./(CanESM2_hflsf3_new+CanESM2_prf3_new);
+CNRM_CM5_mhpr3=CNRM_CM5_mrsosf3_new./(CNRM_CM5_hflsf3_new+CNRM_CM5_prf3_new);
+CSIRO_Mk_mhpr3=CSIRO_Mk_mrsosf3_new./(CSIRO_Mk_hflsf3_new+CSIRO_Mk_prf3_new);
+GFDL_CM3_mhpr3=GFDL_CM3_mrsosf3_new./(GFDL_CM3_hflsf3_new+GFDL_CM3_prf3_new);
+GFDL_ESM2G_mhpr3=GFDL_ESM2G_mrsosf3_new./(GFDL_ESM2G_hflsf3_new+GFDL_ESM2G_prf3_new);
+GFDL_ESM2M_mhpr3=GFDL_ESM2M_mrsosf3_new./(GFDL_ESM2M_hflsf3_new+GFDL_ESM2M_prf3_new);
+HadGEM2_CC_mhpr3=HadGEM2_CC_mrsosf3_new./(HadGEM2_CC_hflsf3_new+HadGEM2_CC_prf3_new);
+HadGEM2_ES_mhpr3=HadGEM2_ES_mrsosf3_new./(HadGEM2_ES_hflsf3_new+HadGEM2_ES_prf3_new);
+inmcm4_mhpr3=inmcm4_mrsosf3_new./(inmcm4_hflsf3_new+inmcm4_prf3_new);
+MIROC5_mhpr3=MIROC5_mrsosf3_new./(MIROC5_hflsf3_new+MIROC5_prf3_new);
+MIROC_ESM_mhpr3=MIROC_ESM_mrsosf3_new./(MIROC_ESM_hflsf3_new+MIROC_ESM_prf3_new);
+MIROC_ESM_CHEM_mhpr3=MIROC_ESM_CHEM_mrsosf3_new./(MIROC_ESM_CHEM_hflsf3_new+MIROC_ESM_CHEM_prf3_new);
+MRI_CGCM3_mhpr3=MRI_CGCM3_mrsosf3_new./(MRI_CGCM3_hflsf3_new+MRI_CGCM3_prf3_new);
+MRI_ESM1_mhpr3=MRI_ESM1_mrsosf3_new./(MRI_ESM1_hflsf3_new+MRI_ESM1_prf3_new);
+NorESM1_M_mhpr3=NorESM1_M_mrsosf3_new./(NorESM1_M_hflsf3_new+NorESM1_M_prf3_new);
+% Averaged H_SEP_n across all models
+avg_mhpr_m1=(BCC_CSM_mhpr1+BNU_ESM_mhpr1+CanESM2_mhpr1+CNRM_CM5_mhpr1+CSIRO_Mk_mhpr1+GFDL_CM3_mhpr1+GFDL_ESM2G_mhpr1+GFDL_ESM2M_mhpr1+HadGEM2_CC_mhpr1+HadGEM2_ES_mhpr1+inmcm4_mhpr1+MIROC5_mhpr1+MIROC_ESM_mhpr1+MIROC_ESM_CHEM_mhpr1+MRI_CGCM3_mhpr1+MRI_ESM1_mhpr1+NorESM1_M_mhpr1)/17;
+avg_mhpr_m2=(BCC_CSM_mhpr2+BNU_ESM_mhpr2+CanESM2_mhpr2+CNRM_CM5_mhpr2+CSIRO_Mk_mhpr2+GFDL_CM3_mhpr2+GFDL_ESM2G_mhpr2+GFDL_ESM2M_mhpr2+HadGEM2_CC_mhpr2+HadGEM2_ES_mhpr2+inmcm4_mhpr2+MIROC5_mhpr2+MIROC_ESM_mhpr2+MIROC_ESM_CHEM_mhpr2+MRI_CGCM3_mhpr2+MRI_ESM1_mhpr2+NorESM1_M_mhpr2)/17;
+avg_mhpr_m3=(BCC_CSM_mhpr3+BNU_ESM_mhpr3+CanESM2_mhpr3+CNRM_CM5_mhpr3+CSIRO_Mk_mhpr3+GFDL_CM3_mhpr3+GFDL_ESM2G_mhpr3+GFDL_ESM2M_mhpr3+HadGEM2_CC_mhpr3+HadGEM2_ES_mhpr3+inmcm4_mhpr3+MIROC5_mhpr3+MIROC_ESM_mhpr3+MIROC_ESM_CHEM_mhpr3+MRI_CGCM3_mhpr3+MRI_ESM1_mhpr3+NorESM1_M_mhpr3)/17;
+% Averaged biases of H_SEP_n between models and observation
+avg_mhpdif1=avg_mhpr_m1-SEPR1;
+avg_mhpdif2=avg_mhpr_m2-SEPR2;
+avg_mhpdif3=avg_mhpr_m3-SEPR3;
+% Averaged biases of H_SEP_n for each model
+BCC_CSM_mhpdif1=BCC_CSM_mhpr1-SEPR1;
+BNU_ESM_mhpdif1=BNU_ESM_mhpr1-SEPR1;
+CanESM2_mhpdif1=CanESM2_mhpr1-SEPR1;
+CNRM_CM5_mhpdif1=CNRM_CM5_mhpr1-SEPR1;
+CSIRO_Mk_mhpdif1=CSIRO_Mk_mhpr1-SEPR1;
+GFDL_CM3_mhpdif1=GFDL_CM3_mhpr1-SEPR1;
+GFDL_ESM2G_mhpdif1=GFDL_ESM2G_mhpr1-SEPR1;
+GFDL_ESM2M_mhpdif1=GFDL_ESM2M_mhpr1-SEPR1;
+HadGEM2_CC_mhpdif1=HadGEM2_CC_mhpr1-SEPR1;
+HadGEM2_ES_mhpdif1=HadGEM2_ES_mhpr1-SEPR1;
+inmcm4_mhpdif1=inmcm4_mhpr1-SEPR1;
+MIROC5_mhpdif1=MIROC5_mhpr1-SEPR1;
+MIROC_ESM_mhpdif1=MIROC_ESM_mhpr1-SEPR1;
+MIROC_ESM_CHEM_mhpdif1=MIROC_ESM_CHEM_mhpr1-SEPR1;
+MRI_CGCM3_mhpdif1=MRI_CGCM3_mhpr1-SEPR1;
+MRI_ESM1_mhpdif1=MRI_ESM1_mhpr1-SEPR1;
+NorESM1_M_mhpdif1=NorESM1_M_mhpr1-SEPR1;
+BCC_CSM_mhpdif2=BCC_CSM_mhpr2-SEPR2;
+BNU_ESM_mhpdif2=BNU_ESM_mhpr2-SEPR2;
+CanESM2_mhpdif2=CanESM2_mhpr2-SEPR2;
+CNRM_CM5_mhpdif2=CNRM_CM5_mhpr2-SEPR2;
+CSIRO_Mk_mhpdif2=CSIRO_Mk_mhpr2-SEPR2;
+GFDL_CM3_mhpdif2=GFDL_CM3_mhpr2-SEPR2;
+GFDL_ESM2G_mhpdif2=GFDL_ESM2G_mhpr2-SEPR2;
+GFDL_ESM2M_mhpdif2=GFDL_ESM2M_mhpr2-SEPR2;
+HadGEM2_CC_mhpdif2=HadGEM2_CC_mhpr2-SEPR2;
+HadGEM2_ES_mhpdif2=HadGEM2_ES_mhpr2-SEPR2;
+inmcm4_mhpdif2=inmcm4_mhpr2-SEPR2;
+MIROC5_mhpdif2=MIROC5_mhpr2-SEPR2;
+MIROC_ESM_mhpdif2=MIROC_ESM_mhpr2-SEPR2;
+MIROC_ESM_CHEM_mhpdif2=MIROC_ESM_CHEM_mhpr2-SEPR2;
+MRI_CGCM3_mhpdif2=MRI_CGCM3_mhpr2-SEPR2;
+MRI_ESM1_mhpdif2=MRI_ESM1_mhpr2-SEPR2;
+NorESM1_M_mhpdif2=NorESM1_M_mhpr2-SEPR2;
+BCC_CSM_mhpdif3=BCC_CSM_mhpr3-SEPR3;
+BNU_ESM_mhpdif3=BNU_ESM_mhpr3-SEPR3;
+CanESM2_mhpdif3=CanESM2_mhpr3-SEPR3;
+CNRM_CM5_mhpdif3=CNRM_CM5_mhpr3-SEPR3;
+CSIRO_Mk_mhpdif3=CSIRO_Mk_mhpr3-SEPR3;
+GFDL_CM3_mhpdif3=GFDL_CM3_mhpr3-SEPR3;
+GFDL_ESM2G_mhpdif3=GFDL_ESM2G_mhpr3-SEPR3;
+GFDL_ESM2M_mhpdif3=GFDL_ESM2M_mhpr3-SEPR3;
+HadGEM2_CC_mhpdif3=HadGEM2_CC_mhpr3-SEPR3;
+HadGEM2_ES_mhpdif3=HadGEM2_ES_mhpr3-SEPR3;
+inmcm4_mhpdif3=inmcm4_mhpr3-SEPR3;
+MIROC5_mhpdif3=MIROC5_mhpr3-SEPR3;
+MIROC_ESM_mhpdif3=MIROC_ESM_mhpr3-SEPR3;
+MIROC_ESM_CHEM_mhpdif3=MIROC_ESM_CHEM_mhpr3-SEPR3;
+MRI_CGCM3_mhpdif3=MRI_CGCM3_mhpr3-SEPR3;
+MRI_ESM1_mhpdif3=MRI_ESM1_mhpr3-SEPR3;
+NorESM1_M_mhpdif3=NorESM1_M_mhpr3-SEPR3;
+% Prepare for significance test for averaged biases of H_SEP_n (1st frequency range)
+BCC_CSM_mhpdif1(BCC_CSM_mhpdif1<0)=0;
+BCC_CSM_mhpdif1(BCC_CSM_mhpdif1>0)=1;
+BNU_ESM_mhpdif1(BNU_ESM_mhpdif1<0)=0;
+BNU_ESM_mhpdif1(BNU_ESM_mhpdif1>0)=1;
+CanESM2_mhpdif1(CanESM2_mhpdif1<0)=0;
+CanESM2_mhpdif1(CanESM2_mhpdif1>0)=1;
+CNRM_CM5_mhpdif1(CNRM_CM5_mhpdif1<0)=0;
+CNRM_CM5_mhpdif1(CNRM_CM5_mhpdif1>0)=1;
+CSIRO_Mk_mhpdif1(CSIRO_Mk_mhpdif1<0)=0;
+CSIRO_Mk_mhpdif1(CSIRO_Mk_mhpdif1>0)=1;
+GFDL_CM3_mhpdif1(GFDL_CM3_mhpdif1<0)=0;
+GFDL_CM3_mhpdif1(GFDL_CM3_mhpdif1>0)=1;
+GFDL_ESM2G_mhpdif1(GFDL_ESM2G_mhpdif1<0)=0;
+GFDL_ESM2G_mhpdif1(GFDL_ESM2G_mhpdif1>0)=1;
+GFDL_ESM2M_mhpdif1(GFDL_ESM2M_mhpdif1<0)=0;
+GFDL_ESM2M_mhpdif1(GFDL_ESM2M_mhpdif1>0)=1;
+HadGEM2_CC_mhpdif1(HadGEM2_CC_mhpdif1<0)=0;
+HadGEM2_CC_mhpdif1(HadGEM2_CC_mhpdif1>0)=1;
+HadGEM2_ES_mhpdif1(HadGEM2_ES_mhpdif1<0)=0;
+HadGEM2_ES_mhpdif1(HadGEM2_ES_mhpdif1>0)=1;
+inmcm4_mhpdif1(inmcm4_mhpdif1<0)=0;
+inmcm4_mhpdif1(inmcm4_mhpdif1>0)=1;
+MIROC5_mhpdif1(MIROC5_mhpdif1<0)=0;
+MIROC5_mhpdif1(MIROC5_mhpdif1>0)=1;
+MIROC_ESM_mhpdif1(MIROC_ESM_mhpdif1<0)=0;
+MIROC_ESM_mhpdif1(MIROC_ESM_mhpdif1>0)=1;
+MIROC_ESM_CHEM_mhpdif1(MIROC_ESM_CHEM_mhpdif1<0)=0;
+MIROC_ESM_CHEM_mhpdif1(MIROC_ESM_CHEM_mhpdif1>0)=1;
+MRI_CGCM3_mhpdif1(MRI_CGCM3_mhpdif1<0)=0;
+MRI_CGCM3_mhpdif1(MRI_CGCM3_mhpdif1>0)=1;
+MRI_ESM1_mhpdif1(MRI_ESM1_mhpdif1<0)=0;
+MRI_ESM1_mhpdif1(MRI_ESM1_mhpdif1>0)=1;
+NorESM1_M_mhpdif1(NorESM1_M_mhpdif1<0)=0;
+NorESM1_M_mhpdif1(NorESM1_M_mhpdif1>0)=1;
+[m,n]=size(BCC_CSM_mhpdif1);
+BCC_CSM_mhpdif1_r=reshape(BCC_CSM_mhpdif1,[m*n,1]);
+BNU_ESM_mhpdif1_r=reshape(BNU_ESM_mhpdif1,[m*n,1]);
+CanESM2_mhpdif1_r=reshape(CanESM2_mhpdif1,[m*n,1]);
+CNRM_CM5_mhpdif1_r=reshape(CNRM_CM5_mhpdif1,[m*n,1]);
+CSIRO_Mk_mhpdif1_r=reshape(CSIRO_Mk_mhpdif1,[m*n,1]);
+GFDL_CM3_mhpdif1_r=reshape(GFDL_CM3_mhpdif1,[m*n,1]);
+GFDL_ESM2G_mhpdif1_r=reshape(GFDL_ESM2G_mhpdif1,[m*n,1]);
+GFDL_ESM2M_mhpdif1_r=reshape(GFDL_ESM2M_mhpdif1,[m*n,1]);
+HadGEM2_CC_mhpdif1_r=reshape(HadGEM2_CC_mhpdif1,[m*n,1]);
+HadGEM2_ES_mhpdif1_r=reshape(HadGEM2_ES_mhpdif1,[m*n,1]);
+inmcm4_mhpdif1_r=reshape(inmcm4_mhpdif1,[m*n,1]);
+MIROC5_mhpdif1_r=reshape(MIROC5_mhpdif1,[m*n,1]);
+MIROC_ESM_mhpdif1_r=reshape(MIROC_ESM_mhpdif1,[m*n,1]);
+MIROC_ESM_CHEM_mhpdif1_r=reshape(MIROC_ESM_CHEM_mhpdif1,[m*n,1]);
+MRI_CGCM3_mhpdif1_r=reshape(MRI_CGCM3_mhpdif1,[m*n,1]);
+MRI_ESM1_mhpdif1_r=reshape(MRI_ESM1_mhpdif1,[m*n,1]);
+NorESM1_M_mhpdif1_r=reshape(NorESM1_M_mhpdif1,[m*n,1]);
+mhpdif1_r=[BCC_CSM_mhpdif1_r,BNU_ESM_mhpdif1_r,CanESM2_mhpdif1_r,CNRM_CM5_mhpdif1_r,CSIRO_Mk_mhpdif1_r,GFDL_CM3_mhpdif1_r,GFDL_ESM2G_mhpdif1_r,GFDL_ESM2M_mhpdif1_r,HadGEM2_CC_mhpdif1_r,HadGEM2_ES_mhpdif1_r,inmcm4_mhpdif1_r,MIROC5_mhpdif1_r,MIROC_ESM_mhpdif1_r,MIROC_ESM_CHEM_mhpdif1_r,MRI_CGCM3_mhpdif1_r,MRI_ESM1_mhpdif1_r,NorESM1_M_mhpdif1_r];
+% The number of models with the same sign as averaged biaes in each pixel (H_SEP_n, 1st frequency range)
+mhpdif1_r_nan=isnan(mhpdif1_r);
+mhpdif1_r_nan=single(mhpdif1_r_nan);
+mhpdif1_r_nan_sum=sum(mhpdif1_r_nan,2);
+mhpdif1_r_nan_sum_c=[mhpdif1_r,mhpdif1_r_nan_sum];
+[row,~]=size(mhpdif1_r);
+mhpdif1_count_0(row,1)=0;
+mhpdif1_count_1(row,1)=0;
+count=1;
+for i=1:row
+    if mhpdif1_r_nan_sum_c(i,18)==17
+        num_0=nan;
+        num_1=nan;
+    else
+        num_0=sum(mhpdif1_r(i,:)==0,2);
+        num_1=sum(mhpdif1_r(i,:)~=0,2);
+    end
+    mhpdif1_count_0(count,:)=num_0;
+    mhpdif1_count_1(count,:)=num_1;
+    count=count+1;
+    disp(i)
+end
+% Ratio of the number of models with the same sign as averaged biaes in each pixel to the number of total models (H_SEP_n, 1st frequency range)
+mhpdif1_count_0_real=mhpdif1_count_0/17;
+mhpdif1_count_1_real=mhpdif1_count_1/17;
+mhpdif1_positive_pct=reshape(mhpdif1_count_0_real,[m,n]);
+mhpdif1_negative_pct=reshape(mhpdif1_count_1_real,[m,n]);
+% Prepare for significance test for averaged biases of H_SEP_n (2nd frequency range)
+BCC_CSM_mhpdif2(BCC_CSM_mhpdif2<0)=0;
+BCC_CSM_mhpdif2(BCC_CSM_mhpdif2>0)=1;
+BNU_ESM_mhpdif2(BNU_ESM_mhpdif2<0)=0;
+BNU_ESM_mhpdif2(BNU_ESM_mhpdif2>0)=1;
+CanESM2_mhpdif2(CanESM2_mhpdif2<0)=0;
+CanESM2_mhpdif2(CanESM2_mhpdif2>0)=1;
+CNRM_CM5_mhpdif2(CNRM_CM5_mhpdif2<0)=0;
+CNRM_CM5_mhpdif2(CNRM_CM5_mhpdif2>0)=1;
+CSIRO_Mk_mhpdif2(CSIRO_Mk_mhpdif2<0)=0;
+CSIRO_Mk_mhpdif2(CSIRO_Mk_mhpdif2>0)=1;
+GFDL_CM3_mhpdif2(GFDL_CM3_mhpdif2<0)=0;
+GFDL_CM3_mhpdif2(GFDL_CM3_mhpdif2>0)=1;
+GFDL_ESM2G_mhpdif2(GFDL_ESM2G_mhpdif2<0)=0;
+GFDL_ESM2G_mhpdif2(GFDL_ESM2G_mhpdif2>0)=1;
+GFDL_ESM2M_mhpdif2(GFDL_ESM2M_mhpdif2<0)=0;
+GFDL_ESM2M_mhpdif2(GFDL_ESM2M_mhpdif2>0)=1;
+HadGEM2_CC_mhpdif2(HadGEM2_CC_mhpdif2<0)=0;
+HadGEM2_CC_mhpdif2(HadGEM2_CC_mhpdif2>0)=1;
+HadGEM2_ES_mhpdif2(HadGEM2_ES_mhpdif2<0)=0;
+HadGEM2_ES_mhpdif2(HadGEM2_ES_mhpdif2>0)=1;
+inmcm4_mhpdif2(inmcm4_mhpdif2<0)=0;
+inmcm4_mhpdif2(inmcm4_mhpdif2>0)=1;
+MIROC5_mhpdif2(MIROC5_mhpdif2<0)=0;
+MIROC5_mhpdif2(MIROC5_mhpdif2>0)=1;
+MIROC_ESM_mhpdif2(MIROC_ESM_mhpdif2<0)=0;
+MIROC_ESM_mhpdif2(MIROC_ESM_mhpdif2>0)=1;
+MIROC_ESM_CHEM_mhpdif2(MIROC_ESM_CHEM_mhpdif2<0)=0;
+MIROC_ESM_CHEM_mhpdif2(MIROC_ESM_CHEM_mhpdif2>0)=1;
+MRI_CGCM3_mhpdif2(MRI_CGCM3_mhpdif2<0)=0;
+MRI_CGCM3_mhpdif2(MRI_CGCM3_mhpdif2>0)=1;
+MRI_ESM1_mhpdif2(MRI_ESM1_mhpdif2<0)=0;
+MRI_ESM1_mhpdif2(MRI_ESM1_mhpdif2>0)=1;
+NorESM1_M_mhpdif2(NorESM1_M_mhpdif2<0)=0;
+NorESM1_M_mhpdif2(NorESM1_M_mhpdif2>0)=1;
+[m,n]=size(BCC_CSM_mhpdif2);
+BCC_CSM_mhpdif2_r=reshape(BCC_CSM_mhpdif2,[m*n,1]);
+BNU_ESM_mhpdif2_r=reshape(BNU_ESM_mhpdif2,[m*n,1]);
+CanESM2_mhpdif2_r=reshape(CanESM2_mhpdif2,[m*n,1]);
+CNRM_CM5_mhpdif2_r=reshape(CNRM_CM5_mhpdif2,[m*n,1]);
+CSIRO_Mk_mhpdif2_r=reshape(CSIRO_Mk_mhpdif2,[m*n,1]);
+GFDL_CM3_mhpdif2_r=reshape(GFDL_CM3_mhpdif2,[m*n,1]);
+GFDL_ESM2G_mhpdif2_r=reshape(GFDL_ESM2G_mhpdif2,[m*n,1]);
+GFDL_ESM2M_mhpdif2_r=reshape(GFDL_ESM2M_mhpdif2,[m*n,1]);
+HadGEM2_CC_mhpdif2_r=reshape(HadGEM2_CC_mhpdif2,[m*n,1]);
+HadGEM2_ES_mhpdif2_r=reshape(HadGEM2_ES_mhpdif2,[m*n,1]);
+inmcm4_mhpdif2_r=reshape(inmcm4_mhpdif2,[m*n,1]);
+MIROC5_mhpdif2_r=reshape(MIROC5_mhpdif2,[m*n,1]);
+MIROC_ESM_mhpdif2_r=reshape(MIROC_ESM_mhpdif2,[m*n,1]);
+MIROC_ESM_CHEM_mhpdif2_r=reshape(MIROC_ESM_CHEM_mhpdif2,[m*n,1]);
+MRI_CGCM3_mhpdif2_r=reshape(MRI_CGCM3_mhpdif2,[m*n,1]);
+MRI_ESM1_mhpdif2_r=reshape(MRI_ESM1_mhpdif2,[m*n,1]);
+NorESM1_M_mhpdif2_r=reshape(NorESM1_M_mhpdif2,[m*n,1]);
+mhpdif2_r=[BCC_CSM_mhpdif2_r,BNU_ESM_mhpdif2_r,CanESM2_mhpdif2_r,CNRM_CM5_mhpdif2_r,CSIRO_Mk_mhpdif2_r,GFDL_CM3_mhpdif2_r,GFDL_ESM2G_mhpdif2_r,GFDL_ESM2M_mhpdif2_r,HadGEM2_CC_mhpdif2_r,HadGEM2_ES_mhpdif2_r,inmcm4_mhpdif2_r,MIROC5_mhpdif2_r,MIROC_ESM_mhpdif2_r,MIROC_ESM_CHEM_mhpdif2_r,MRI_CGCM3_mhpdif2_r,MRI_ESM1_mhpdif2_r,NorESM1_M_mhpdif2_r];
+% The number of models with the same sign as averaged biaes in each pixel (H_SEP_n, 2nd frequency range)
+mhpdif2_r_nan=isnan(mhpdif2_r);
+mhpdif2_r_nan=single(mhpdif2_r_nan);
+mhpdif2_r_nan_sum=sum(mhpdif2_r_nan,2);
+mhpdif2_r_nan_sum_c=[mhpdif2_r,mhpdif2_r_nan_sum];
+[row,~]=size(mhpdif2_r);
+mhpdif2_count_0(row,1)=0;
+mhpdif2_count_1(row,1)=0;
+count=1;
+for i=1:row
+    if mhpdif2_r_nan_sum_c(i,18)==17
+        num_0=nan;
+        num_1=nan;
+    else
+        num_0=sum(mhpdif2_r(i,:)==0,2);
+        num_1=sum(mhpdif2_r(i,:)~=0,2);
+    end
+    mhpdif2_count_0(count,:)=num_0;
+    mhpdif2_count_1(count,:)=num_1;
+    count=count+1;
+    disp(i)
+end
+% Ratio of the number of models with the same sign as averaged biaes in each pixel to the number of total models (H_SEP_n, 2nd frequency range)
+mhpdif2_count_0_real=mhpdif2_count_0/17;
+mhpdif2_count_1_real=mhpdif2_count_1/17;
+mhpdif2_positive_pct=reshape(mhpdif2_count_0_real,[m,n]);
+mhpdif2_negative_pct=reshape(mhpdif2_count_1_real,[m,n]);
+% Prepare for significance test for averaged biases of H_SEP_n (3rd frequency range)
+BCC_CSM_mhpdif3(BCC_CSM_mhpdif3<0)=0;
+BCC_CSM_mhpdif3(BCC_CSM_mhpdif3>0)=1;
+BNU_ESM_mhpdif3(BNU_ESM_mhpdif3<0)=0;
+BNU_ESM_mhpdif3(BNU_ESM_mhpdif3>0)=1;
+CanESM2_mhpdif3(CanESM2_mhpdif3<0)=0;
+CanESM2_mhpdif3(CanESM2_mhpdif3>0)=1;
+CNRM_CM5_mhpdif3(CNRM_CM5_mhpdif3<0)=0;
+CNRM_CM5_mhpdif3(CNRM_CM5_mhpdif3>0)=1;
+CSIRO_Mk_mhpdif3(CSIRO_Mk_mhpdif3<0)=0;
+CSIRO_Mk_mhpdif3(CSIRO_Mk_mhpdif3>0)=1;
+GFDL_CM3_mhpdif3(GFDL_CM3_mhpdif3<0)=0;
+GFDL_CM3_mhpdif3(GFDL_CM3_mhpdif3>0)=1;
+GFDL_ESM2G_mhpdif3(GFDL_ESM2G_mhpdif3<0)=0;
+GFDL_ESM2G_mhpdif3(GFDL_ESM2G_mhpdif3>0)=1;
+GFDL_ESM2M_mhpdif3(GFDL_ESM2M_mhpdif3<0)=0;
+GFDL_ESM2M_mhpdif3(GFDL_ESM2M_mhpdif3>0)=1;
+HadGEM2_CC_mhpdif3(HadGEM2_CC_mhpdif3<0)=0;
+HadGEM2_CC_mhpdif3(HadGEM2_CC_mhpdif3>0)=1;
+HadGEM2_ES_mhpdif3(HadGEM2_ES_mhpdif3<0)=0;
+HadGEM2_ES_mhpdif3(HadGEM2_ES_mhpdif3>0)=1;
+inmcm4_mhpdif3(inmcm4_mhpdif3<0)=0;
+inmcm4_mhpdif3(inmcm4_mhpdif3>0)=1;
+MIROC5_mhpdif3(MIROC5_mhpdif3<0)=0;
+MIROC5_mhpdif3(MIROC5_mhpdif3>0)=1;
+MIROC_ESM_mhpdif3(MIROC_ESM_mhpdif3<0)=0;
+MIROC_ESM_mhpdif3(MIROC_ESM_mhpdif3>0)=1;
+MIROC_ESM_CHEM_mhpdif3(MIROC_ESM_CHEM_mhpdif3<0)=0;
+MIROC_ESM_CHEM_mhpdif3(MIROC_ESM_CHEM_mhpdif3>0)=1;
+MRI_CGCM3_mhpdif3(MRI_CGCM3_mhpdif3<0)=0;
+MRI_CGCM3_mhpdif3(MRI_CGCM3_mhpdif3>0)=1;
+MRI_ESM1_mhpdif3(MRI_ESM1_mhpdif3<0)=0;
+MRI_ESM1_mhpdif3(MRI_ESM1_mhpdif3>0)=1;
+NorESM1_M_mhpdif3(NorESM1_M_mhpdif3<0)=0;
+NorESM1_M_mhpdif3(NorESM1_M_mhpdif3>0)=1;
+[m,n]=size(BCC_CSM_mhpdif3);
+BCC_CSM_mhpdif3_r=reshape(BCC_CSM_mhpdif3,[m*n,1]);
+BNU_ESM_mhpdif3_r=reshape(BNU_ESM_mhpdif3,[m*n,1]);
+CanESM2_mhpdif3_r=reshape(CanESM2_mhpdif3,[m*n,1]);
+CNRM_CM5_mhpdif3_r=reshape(CNRM_CM5_mhpdif3,[m*n,1]);
+CSIRO_Mk_mhpdif3_r=reshape(CSIRO_Mk_mhpdif3,[m*n,1]);
+GFDL_CM3_mhpdif3_r=reshape(GFDL_CM3_mhpdif3,[m*n,1]);
+GFDL_ESM2G_mhpdif3_r=reshape(GFDL_ESM2G_mhpdif3,[m*n,1]);
+GFDL_ESM2M_mhpdif3_r=reshape(GFDL_ESM2M_mhpdif3,[m*n,1]);
+HadGEM2_CC_mhpdif3_r=reshape(HadGEM2_CC_mhpdif3,[m*n,1]);
+HadGEM2_ES_mhpdif3_r=reshape(HadGEM2_ES_mhpdif3,[m*n,1]);
+inmcm4_mhpdif3_r=reshape(inmcm4_mhpdif3,[m*n,1]);
+MIROC5_mhpdif3_r=reshape(MIROC5_mhpdif3,[m*n,1]);
+MIROC_ESM_mhpdif3_r=reshape(MIROC_ESM_mhpdif3,[m*n,1]);
+MIROC_ESM_CHEM_mhpdif3_r=reshape(MIROC_ESM_CHEM_mhpdif3,[m*n,1]);
+MRI_CGCM3_mhpdif3_r=reshape(MRI_CGCM3_mhpdif3,[m*n,1]);
+MRI_ESM1_mhpdif3_r=reshape(MRI_ESM1_mhpdif3,[m*n,1]);
+NorESM1_M_mhpdif3_r=reshape(NorESM1_M_mhpdif3,[m*n,1]);
+mhpdif3_r=[BCC_CSM_mhpdif3_r,BNU_ESM_mhpdif3_r,CanESM2_mhpdif3_r,CNRM_CM5_mhpdif3_r,CSIRO_Mk_mhpdif3_r,GFDL_CM3_mhpdif3_r,GFDL_ESM2G_mhpdif3_r,GFDL_ESM2M_mhpdif3_r,HadGEM2_CC_mhpdif3_r,HadGEM2_ES_mhpdif3_r,inmcm4_mhpdif3_r,MIROC5_mhpdif3_r,MIROC_ESM_mhpdif3_r,MIROC_ESM_CHEM_mhpdif3_r,MRI_CGCM3_mhpdif3_r,MRI_ESM1_mhpdif3_r,NorESM1_M_mhpdif3_r];
+% The number of models with the same sign as averaged biaes in each pixel (H_SEP_n, 3rd frequency range)
+mhpdif3_r_nan=isnan(mhpdif3_r);
+mhpdif3_r_nan=single(mhpdif3_r_nan);
+mhpdif3_r_nan_sum=sum(mhpdif3_r_nan,2);
+mhpdif3_r_nan_sum_c=[mhpdif3_r,mhpdif3_r_nan_sum];
+[row,~]=size(mhpdif3_r);
+mhpdif3_count_0(row,1)=0;
+mhpdif3_count_1(row,1)=0;
+count=1;
+for i=1:row
+    if mhpdif3_r_nan_sum_c(i,18)==17
+        num_0=nan;
+        num_1=nan;
+    else
+        num_0=sum(mhpdif3_r(i,:)==0,2);
+        num_1=sum(mhpdif3_r(i,:)~=0,2);
+    end
+    mhpdif3_count_0(count,:)=num_0;
+    mhpdif3_count_1(count,:)=num_1;
+    count=count+1;
+    disp(i)
+end
+% Ratio of the number of models with the same sign as averaged biaes in each pixel to the number of total models (H_SEP_n, 3rd frequency range)
+mhpdif3_count_0_real=mhpdif3_count_0/17;
+mhpdif3_count_1_real=mhpdif3_count_1/17;
+mhpdif3_positive_pct=reshape(mhpdif3_count_0_real,[m,n]);
+mhpdif3_negative_pct=reshape(mhpdif3_count_1_real,[m,n]);
+% Define the range of average biases of H_SEP_n
+mhpdif_max1=max(max(avg_mhpdif1));
+mhpdif_max2=max(max(avg_mhpdif2));
+mhpdif_max3=max(max(avg_mhpdif3));
+mhpdif_maxn=[mhpdif_max1,mhpdif_max2,mhpdif_max3];
+mhpdif_MAX=max(mhpdif_maxn);
+mhpdif_min1=min(min(avg_mhpdif1));
+mhpdif_min2=min(min(avg_mhpdif2));
+mhpdif_min3=min(min(avg_mhpdif3));
+mhpdif_minn=[mhpdif_min1,mhpdif_min2,mhpdif_min3];
+mhpdif_MIN=min(mhpdif_minn);
+% H_EEP_n for all models over different time scales
+BCC_CSM_hhpr1=BCC_CSM_hflsf1_new./(BCC_CSM_hflsf1_new+BCC_CSM_prf1_new);
+BNU_ESM_hhpr1=BNU_ESM_hflsf1_new./(BNU_ESM_hflsf1_new+BNU_ESM_prf1_new);
+CanESM2_hhpr1=CanESM2_hflsf1_new./(CanESM2_hflsf1_new+CanESM2_prf1_new);
+CNRM_CM5_hhpr1=CNRM_CM5_hflsf1_new./(CNRM_CM5_hflsf1_new+CNRM_CM5_prf1_new);
+CSIRO_Mk_hhpr1=CSIRO_Mk_hflsf1_new./(CSIRO_Mk_hflsf1_new+CSIRO_Mk_prf1_new);
+GFDL_CM3_hhpr1=GFDL_CM3_hflsf1_new./(GFDL_CM3_hflsf1_new+GFDL_CM3_prf1_new);
+GFDL_ESM2G_hhpr1=GFDL_ESM2G_hflsf1_new./(GFDL_ESM2G_hflsf1_new+GFDL_ESM2G_prf1_new);
+GFDL_ESM2M_hhpr1=GFDL_ESM2M_hflsf1_new./(GFDL_ESM2M_hflsf1_new+GFDL_ESM2M_prf1_new);
+HadGEM2_CC_hhpr1=HadGEM2_CC_hflsf1_new./(HadGEM2_CC_hflsf1_new+HadGEM2_CC_prf1_new);
+HadGEM2_ES_hhpr1=HadGEM2_ES_hflsf1_new./(HadGEM2_ES_hflsf1_new+HadGEM2_ES_prf1_new);
+inmcm4_hhpr1=inmcm4_hflsf1_new./(inmcm4_hflsf1_new+inmcm4_prf1_new);
+MIROC5_hhpr1=MIROC5_hflsf1_new./(MIROC5_hflsf1_new+MIROC5_prf1_new);
+MIROC_ESM_hhpr1=MIROC_ESM_hflsf1_new./(MIROC_ESM_hflsf1_new+MIROC_ESM_prf1_new);
+MIROC_ESM_CHEM_hhpr1=MIROC_ESM_CHEM_hflsf1_new./(MIROC_ESM_CHEM_hflsf1_new+MIROC_ESM_CHEM_prf1_new);
+MRI_CGCM3_hhpr1=MRI_CGCM3_hflsf1_new./(MRI_CGCM3_hflsf1_new+MRI_CGCM3_prf1_new);
+MRI_ESM1_hhpr1=MRI_ESM1_hflsf1_new./(MRI_ESM1_hflsf1_new+MRI_ESM1_prf1_new);
+NorESM1_M_hhpr1=NorESM1_M_hflsf1_new./(NorESM1_M_hflsf1_new+NorESM1_M_prf1_new);
+BCC_CSM_hhpr2=BCC_CSM_hflsf2_new./(BCC_CSM_hflsf2_new+BCC_CSM_prf2_new);
+BNU_ESM_hhpr2=BNU_ESM_hflsf2_new./(BNU_ESM_hflsf2_new+BNU_ESM_prf2_new);
+CanESM2_hhpr2=CanESM2_hflsf2_new./(CanESM2_hflsf2_new+CanESM2_prf2_new);
+CNRM_CM5_hhpr2=CNRM_CM5_hflsf2_new./(CNRM_CM5_hflsf2_new+CNRM_CM5_prf2_new);
+CSIRO_Mk_hhpr2=CSIRO_Mk_hflsf2_new./(CSIRO_Mk_hflsf2_new+CSIRO_Mk_prf2_new);
+GFDL_CM3_hhpr2=GFDL_CM3_hflsf2_new./(GFDL_CM3_hflsf2_new+GFDL_CM3_prf2_new);
+GFDL_ESM2G_hhpr2=GFDL_ESM2G_hflsf2_new./(GFDL_ESM2G_hflsf2_new+GFDL_ESM2G_prf2_new);
+GFDL_ESM2M_hhpr2=GFDL_ESM2M_hflsf2_new./(GFDL_ESM2M_hflsf2_new+GFDL_ESM2M_prf2_new);
+HadGEM2_CC_hhpr2=HadGEM2_CC_hflsf2_new./(HadGEM2_CC_hflsf2_new+HadGEM2_CC_prf2_new);
+HadGEM2_ES_hhpr2=HadGEM2_ES_hflsf2_new./(HadGEM2_ES_hflsf2_new+HadGEM2_ES_prf2_new);
+inmcm4_hhpr2=inmcm4_hflsf2_new./(inmcm4_hflsf2_new+inmcm4_prf2_new);
+MIROC5_hhpr2=MIROC5_hflsf2_new./(MIROC5_hflsf2_new+MIROC5_prf2_new);
+MIROC_ESM_hhpr2=MIROC_ESM_hflsf2_new./(MIROC_ESM_hflsf2_new+MIROC_ESM_prf2_new);
+MIROC_ESM_CHEM_hhpr2=MIROC_ESM_CHEM_hflsf2_new./(MIROC_ESM_CHEM_hflsf2_new+MIROC_ESM_CHEM_prf2_new);
+MRI_CGCM3_hhpr2=MRI_CGCM3_hflsf2_new./(MRI_CGCM3_hflsf2_new+MRI_CGCM3_prf2_new);
+MRI_ESM1_hhpr2=MRI_ESM1_hflsf2_new./(MRI_ESM1_hflsf2_new+MRI_ESM1_prf2_new);
+NorESM1_M_hhpr2=NorESM1_M_hflsf2_new./(NorESM1_M_hflsf2_new+NorESM1_M_prf2_new);
+BCC_CSM_hhpr3=BCC_CSM_hflsf3_new./(BCC_CSM_hflsf3_new+BCC_CSM_prf3_new);
+BNU_ESM_hhpr3=BNU_ESM_hflsf3_new./(BNU_ESM_hflsf3_new+BNU_ESM_prf3_new);
+CanESM2_hhpr3=CanESM2_hflsf3_new./(CanESM2_hflsf3_new+CanESM2_prf3_new);
+CNRM_CM5_hhpr3=CNRM_CM5_hflsf3_new./(CNRM_CM5_hflsf3_new+CNRM_CM5_prf3_new);
+CSIRO_Mk_hhpr3=CSIRO_Mk_hflsf3_new./(CSIRO_Mk_hflsf3_new+CSIRO_Mk_prf3_new);
+GFDL_CM3_hhpr3=GFDL_CM3_hflsf3_new./(GFDL_CM3_hflsf3_new+GFDL_CM3_prf3_new);
+GFDL_ESM2G_hhpr3=GFDL_ESM2G_hflsf3_new./(GFDL_ESM2G_hflsf3_new+GFDL_ESM2G_prf3_new);
+GFDL_ESM2M_hhpr3=GFDL_ESM2M_hflsf3_new./(GFDL_ESM2M_hflsf3_new+GFDL_ESM2M_prf3_new);
+HadGEM2_CC_hhpr3=HadGEM2_CC_hflsf3_new./(HadGEM2_CC_hflsf3_new+HadGEM2_CC_prf3_new);
+HadGEM2_ES_hhpr3=HadGEM2_ES_hflsf3_new./(HadGEM2_ES_hflsf3_new+HadGEM2_ES_prf3_new);
+inmcm4_hhpr3=inmcm4_hflsf3_new./(inmcm4_hflsf3_new+inmcm4_prf3_new);
+MIROC5_hhpr3=MIROC5_hflsf3_new./(MIROC5_hflsf3_new+MIROC5_prf3_new);
+MIROC_ESM_hhpr3=MIROC_ESM_hflsf3_new./(MIROC_ESM_hflsf3_new+MIROC_ESM_prf3_new);
+MIROC_ESM_CHEM_hhpr3=MIROC_ESM_CHEM_hflsf3_new./(MIROC_ESM_CHEM_hflsf3_new+MIROC_ESM_CHEM_prf3_new);
+MRI_CGCM3_hhpr3=MRI_CGCM3_hflsf3_new./(MRI_CGCM3_hflsf3_new+MRI_CGCM3_prf3_new);
+MRI_ESM1_hhpr3=MRI_ESM1_hflsf3_new./(MRI_ESM1_hflsf3_new+MRI_ESM1_prf3_new);
+NorESM1_M_hhpr3=NorESM1_M_hflsf3_new./(NorESM1_M_hflsf3_new+NorESM1_M_prf3_new);
+% Averaged H_EEP_n across all models
+avg_hhpr_m1=(BCC_CSM_hhpr1+BNU_ESM_hhpr1+CanESM2_hhpr1+CNRM_CM5_hhpr1+CSIRO_Mk_hhpr1+GFDL_CM3_hhpr1+GFDL_ESM2G_hhpr1+GFDL_ESM2M_hhpr1+HadGEM2_CC_hhpr1+HadGEM2_ES_hhpr1+inmcm4_hhpr1+MIROC5_hhpr1+MIROC_ESM_hhpr1+MIROC_ESM_CHEM_hhpr1+MRI_CGCM3_hhpr1+MRI_ESM1_hhpr1+NorESM1_M_hhpr1)/17;
+avg_hhpr_m2=(BCC_CSM_hhpr2+BNU_ESM_hhpr2+CanESM2_hhpr2+CNRM_CM5_hhpr2+CSIRO_Mk_hhpr2+GFDL_CM3_hhpr2+GFDL_ESM2G_hhpr2+GFDL_ESM2M_hhpr2+HadGEM2_CC_hhpr2+HadGEM2_ES_hhpr2+inmcm4_hhpr2+MIROC5_hhpr2+MIROC_ESM_hhpr2+MIROC_ESM_CHEM_hhpr2+MRI_CGCM3_hhpr2+MRI_ESM1_hhpr2+NorESM1_M_hhpr2)/17;
+avg_hhpr_m3=(BCC_CSM_hhpr3+BNU_ESM_hhpr3+CanESM2_hhpr3+CNRM_CM5_hhpr3+CSIRO_Mk_hhpr3+GFDL_CM3_hhpr3+GFDL_ESM2G_hhpr3+GFDL_ESM2M_hhpr3+HadGEM2_CC_hhpr3+HadGEM2_ES_hhpr3+inmcm4_hhpr3+MIROC5_hhpr3+MIROC_ESM_hhpr3+MIROC_ESM_CHEM_hhpr3+MRI_CGCM3_hhpr3+MRI_ESM1_hhpr3+NorESM1_M_hhpr3)/17;
+% Averaged biases of H_EEP_n between models and observation
+avg_hhpdif1=avg_hhpr_m1-EEPR1;
+avg_hhpdif2=avg_hhpr_m2-EEPR2;
+avg_hhpdif3=avg_hhpr_m3-EEPR3;
+% Averaged biases of H_EEP_n for each model
+BCC_CSM_hhpdif1=BCC_CSM_hhpr1-EEPR1;
+BNU_ESM_hhpdif1=BNU_ESM_hhpr1-EEPR1;
+CanESM2_hhpdif1=CanESM2_hhpr1-EEPR1;
+CNRM_CM5_hhpdif1=CNRM_CM5_hhpr1-EEPR1;
+CSIRO_Mk_hhpdif1=CSIRO_Mk_hhpr1-EEPR1;
+GFDL_CM3_hhpdif1=GFDL_CM3_hhpr1-EEPR1;
+GFDL_ESM2G_hhpdif1=GFDL_ESM2G_hhpr1-EEPR1;
+GFDL_ESM2M_hhpdif1=GFDL_ESM2M_hhpr1-EEPR1;
+HadGEM2_CC_hhpdif1=HadGEM2_CC_hhpr1-EEPR1;
+HadGEM2_ES_hhpdif1=HadGEM2_ES_hhpr1-EEPR1;
+inmcm4_hhpdif1=inmcm4_hhpr1-EEPR1;
+MIROC5_hhpdif1=MIROC5_hhpr1-EEPR1;
+MIROC_ESM_hhpdif1=MIROC_ESM_hhpr1-EEPR1;
+MIROC_ESM_CHEM_hhpdif1=MIROC_ESM_CHEM_hhpr1-EEPR1;
+MRI_CGCM3_hhpdif1=MRI_CGCM3_hhpr1-EEPR1;
+MRI_ESM1_hhpdif1=MRI_ESM1_hhpr1-EEPR1;
+NorESM1_M_hhpdif1=NorESM1_M_hhpr1-EEPR1;
+BCC_CSM_hhpdif2=BCC_CSM_hhpr2-EEPR2;
+BNU_ESM_hhpdif2=BNU_ESM_hhpr2-EEPR2;
+CanESM2_hhpdif2=CanESM2_hhpr2-EEPR2;
+CNRM_CM5_hhpdif2=CNRM_CM5_hhpr2-EEPR2;
+CSIRO_Mk_hhpdif2=CSIRO_Mk_hhpr2-EEPR2;
+GFDL_CM3_hhpdif2=GFDL_CM3_hhpr2-EEPR2;
+GFDL_ESM2G_hhpdif2=GFDL_ESM2G_hhpr2-EEPR2;
+GFDL_ESM2M_hhpdif2=GFDL_ESM2M_hhpr2-EEPR2;
+HadGEM2_CC_hhpdif2=HadGEM2_CC_hhpr2-EEPR2;
+HadGEM2_ES_hhpdif2=HadGEM2_ES_hhpr2-EEPR2;
+inmcm4_hhpdif2=inmcm4_hhpr2-EEPR2;
+MIROC5_hhpdif2=MIROC5_hhpr2-EEPR2;
+MIROC_ESM_hhpdif2=MIROC_ESM_hhpr2-EEPR2;
+MIROC_ESM_CHEM_hhpdif2=MIROC_ESM_CHEM_hhpr2-EEPR2;
+MRI_CGCM3_hhpdif2=MRI_CGCM3_hhpr2-EEPR2;
+MRI_ESM1_hhpdif2=MRI_ESM1_hhpr2-EEPR2;
+NorESM1_M_hhpdif2=NorESM1_M_hhpr2-EEPR2;
+BCC_CSM_hhpdif3=BCC_CSM_hhpr3-EEPR3;
+BNU_ESM_hhpdif3=BNU_ESM_hhpr3-EEPR3;
+CanESM2_hhpdif3=CanESM2_hhpr3-EEPR3;
+CNRM_CM5_hhpdif3=CNRM_CM5_hhpr3-EEPR3;
+CSIRO_Mk_hhpdif3=CSIRO_Mk_hhpr3-EEPR3;
+GFDL_CM3_hhpdif3=GFDL_CM3_hhpr3-EEPR3;
+GFDL_ESM2G_hhpdif3=GFDL_ESM2G_hhpr3-EEPR3;
+GFDL_ESM2M_hhpdif3=GFDL_ESM2M_hhpr3-EEPR3;
+HadGEM2_CC_hhpdif3=HadGEM2_CC_hhpr3-EEPR3;
+HadGEM2_ES_hhpdif3=HadGEM2_ES_hhpr3-EEPR3;
+inmcm4_hhpdif3=inmcm4_hhpr3-EEPR3;
+MIROC5_hhpdif3=MIROC5_hhpr3-EEPR3;
+MIROC_ESM_hhpdif3=MIROC_ESM_hhpr3-EEPR3;
+MIROC_ESM_CHEM_hhpdif3=MIROC_ESM_CHEM_hhpr3-EEPR3;
+MRI_CGCM3_hhpdif3=MRI_CGCM3_hhpr3-EEPR3;
+MRI_ESM1_hhpdif3=MRI_ESM1_hhpr3-EEPR3;
+NorESM1_M_hhpdif3=NorESM1_M_hhpr3-EEPR3;
+% Prepare for significance test for averaged biases of H_EEP_n (1st frequency range)
+BCC_CSM_hhpdif1(BCC_CSM_hhpdif1<0)=0;
+BCC_CSM_hhpdif1(BCC_CSM_hhpdif1>0)=1;
+BNU_ESM_hhpdif1(BNU_ESM_hhpdif1<0)=0;
+BNU_ESM_hhpdif1(BNU_ESM_hhpdif1>0)=1;
+CanESM2_hhpdif1(CanESM2_hhpdif1<0)=0;
+CanESM2_hhpdif1(CanESM2_hhpdif1>0)=1;
+CNRM_CM5_hhpdif1(CNRM_CM5_hhpdif1<0)=0;
+CNRM_CM5_hhpdif1(CNRM_CM5_hhpdif1>0)=1;
+CSIRO_Mk_hhpdif1(CSIRO_Mk_hhpdif1<0)=0;
+CSIRO_Mk_hhpdif1(CSIRO_Mk_hhpdif1>0)=1;
+GFDL_CM3_hhpdif1(GFDL_CM3_hhpdif1<0)=0;
+GFDL_CM3_hhpdif1(GFDL_CM3_hhpdif1>0)=1;
+GFDL_ESM2G_hhpdif1(GFDL_ESM2G_hhpdif1<0)=0;
+GFDL_ESM2G_hhpdif1(GFDL_ESM2G_hhpdif1>0)=1;
+GFDL_ESM2M_hhpdif1(GFDL_ESM2M_hhpdif1<0)=0;
+GFDL_ESM2M_hhpdif1(GFDL_ESM2M_hhpdif1>0)=1;
+HadGEM2_CC_hhpdif1(HadGEM2_CC_hhpdif1<0)=0;
+HadGEM2_CC_hhpdif1(HadGEM2_CC_hhpdif1>0)=1;
+HadGEM2_ES_hhpdif1(HadGEM2_ES_hhpdif1<0)=0;
+HadGEM2_ES_hhpdif1(HadGEM2_ES_hhpdif1>0)=1;
+inmcm4_hhpdif1(inmcm4_hhpdif1<0)=0;
+inmcm4_hhpdif1(inmcm4_hhpdif1>0)=1;
+MIROC5_hhpdif1(MIROC5_hhpdif1<0)=0;
+MIROC5_hhpdif1(MIROC5_hhpdif1>0)=1;
+MIROC_ESM_hhpdif1(MIROC_ESM_hhpdif1<0)=0;
+MIROC_ESM_hhpdif1(MIROC_ESM_hhpdif1>0)=1;
+MIROC_ESM_CHEM_hhpdif1(MIROC_ESM_CHEM_hhpdif1<0)=0;
+MIROC_ESM_CHEM_hhpdif1(MIROC_ESM_CHEM_hhpdif1>0)=1;
+MRI_CGCM3_hhpdif1(MRI_CGCM3_hhpdif1<0)=0;
+MRI_CGCM3_hhpdif1(MRI_CGCM3_hhpdif1>0)=1;
+MRI_ESM1_hhpdif1(MRI_ESM1_hhpdif1<0)=0;
+MRI_ESM1_hhpdif1(MRI_ESM1_hhpdif1>0)=1;
+NorESM1_M_hhpdif1(NorESM1_M_hhpdif1<0)=0;
+NorESM1_M_hhpdif1(NorESM1_M_hhpdif1>0)=1;
+[m,n]=size(BCC_CSM_hhpdif1);
+BCC_CSM_hhpdif1_r=reshape(BCC_CSM_hhpdif1,[m*n,1]);
+BNU_ESM_hhpdif1_r=reshape(BNU_ESM_hhpdif1,[m*n,1]);
+CanESM2_hhpdif1_r=reshape(CanESM2_hhpdif1,[m*n,1]);
+CNRM_CM5_hhpdif1_r=reshape(CNRM_CM5_hhpdif1,[m*n,1]);
+CSIRO_Mk_hhpdif1_r=reshape(CSIRO_Mk_hhpdif1,[m*n,1]);
+GFDL_CM3_hhpdif1_r=reshape(GFDL_CM3_hhpdif1,[m*n,1]);
+GFDL_ESM2G_hhpdif1_r=reshape(GFDL_ESM2G_hhpdif1,[m*n,1]);
+GFDL_ESM2M_hhpdif1_r=reshape(GFDL_ESM2M_hhpdif1,[m*n,1]);
+HadGEM2_CC_hhpdif1_r=reshape(HadGEM2_CC_hhpdif1,[m*n,1]);
+HadGEM2_ES_hhpdif1_r=reshape(HadGEM2_ES_hhpdif1,[m*n,1]);
+inmcm4_hhpdif1_r=reshape(inmcm4_hhpdif1,[m*n,1]);
+MIROC5_hhpdif1_r=reshape(MIROC5_hhpdif1,[m*n,1]);
+MIROC_ESM_hhpdif1_r=reshape(MIROC_ESM_hhpdif1,[m*n,1]);
+MIROC_ESM_CHEM_hhpdif1_r=reshape(MIROC_ESM_CHEM_hhpdif1,[m*n,1]);
+MRI_CGCM3_hhpdif1_r=reshape(MRI_CGCM3_hhpdif1,[m*n,1]);
+MRI_ESM1_hhpdif1_r=reshape(MRI_ESM1_hhpdif1,[m*n,1]);
+NorESM1_M_hhpdif1_r=reshape(NorESM1_M_hhpdif1,[m*n,1]);
+hhpdif1_r=[BCC_CSM_hhpdif1_r,BNU_ESM_hhpdif1_r,CanESM2_hhpdif1_r,CNRM_CM5_hhpdif1_r,CSIRO_Mk_hhpdif1_r,GFDL_CM3_hhpdif1_r,GFDL_ESM2G_hhpdif1_r,GFDL_ESM2M_hhpdif1_r,HadGEM2_CC_hhpdif1_r,HadGEM2_ES_hhpdif1_r,inmcm4_hhpdif1_r,MIROC5_hhpdif1_r,MIROC_ESM_hhpdif1_r,MIROC_ESM_CHEM_hhpdif1_r,MRI_CGCM3_hhpdif1_r,MRI_ESM1_hhpdif1_r,NorESM1_M_hhpdif1_r];
+% The number of models with the same sign as averaged biaes in each pixel (H_EEP_n, 1st frequency range)
+hhpdif1_r_nan=isnan(hhpdif1_r);
+hhpdif1_r_nan=single(hhpdif1_r_nan);
+hhpdif1_r_nan_sum=sum(hhpdif1_r_nan,2);
+hhpdif1_r_nan_sum_c=[hhpdif1_r,hhpdif1_r_nan_sum];
+[row,~]=size(hhpdif1_r);
+hhpdif1_count_0(row,1)=0;
+hhpdif1_count_1(row,1)=0;
+count=1;
+for i=1:row
+    if hhpdif1_r_nan_sum_c(i,18)==17
+        num_0=nan;
+        num_1=nan;
+    else
+        num_0=sum(hhpdif1_r(i,:)==0,2);
+        num_1=sum(hhpdif1_r(i,:)~=0,2);
+    end
+    hhpdif1_count_0(count,:)=num_0;
+    hhpdif1_count_1(count,:)=num_1;
+    count=count+1;
+    disp(i)
+end
+% Ratio of the number of models with the same sign as averaged biaes in each pixel to the number of total models (H_EEP_n, 1st frequency range)
+hhpdif1_count_0_real=hhpdif1_count_0/17;
+hhpdif1_count_1_real=hhpdif1_count_1/17;
+hhpdif1_positive_pct=reshape(hhpdif1_count_0_real,[m,n]);
+hhpdif1_negative_pct=reshape(hhpdif1_count_1_real,[m,n]);
+% Prepare for significance test for averaged biases of H_EEP_n (2nd frequency range)
+BCC_CSM_hhpdif2(BCC_CSM_hhpdif2<0)=0;
+BCC_CSM_hhpdif2(BCC_CSM_hhpdif2>0)=1;
+BNU_ESM_hhpdif2(BNU_ESM_hhpdif2<0)=0;
+BNU_ESM_hhpdif2(BNU_ESM_hhpdif2>0)=1;
+CanESM2_hhpdif2(CanESM2_hhpdif2<0)=0;
+CanESM2_hhpdif2(CanESM2_hhpdif2>0)=1;
+CNRM_CM5_hhpdif2(CNRM_CM5_hhpdif2<0)=0;
+CNRM_CM5_hhpdif2(CNRM_CM5_hhpdif2>0)=1;
+CSIRO_Mk_hhpdif2(CSIRO_Mk_hhpdif2<0)=0;
+CSIRO_Mk_hhpdif2(CSIRO_Mk_hhpdif2>0)=1;
+GFDL_CM3_hhpdif2(GFDL_CM3_hhpdif2<0)=0;
+GFDL_CM3_hhpdif2(GFDL_CM3_hhpdif2>0)=1;
+GFDL_ESM2G_hhpdif2(GFDL_ESM2G_hhpdif2<0)=0;
+GFDL_ESM2G_hhpdif2(GFDL_ESM2G_hhpdif2>0)=1;
+GFDL_ESM2M_hhpdif2(GFDL_ESM2M_hhpdif2<0)=0;
+GFDL_ESM2M_hhpdif2(GFDL_ESM2M_hhpdif2>0)=1;
+HadGEM2_CC_hhpdif2(HadGEM2_CC_hhpdif2<0)=0;
+HadGEM2_CC_hhpdif2(HadGEM2_CC_hhpdif2>0)=1;
+HadGEM2_ES_hhpdif2(HadGEM2_ES_hhpdif2<0)=0;
+HadGEM2_ES_hhpdif2(HadGEM2_ES_hhpdif2>0)=1;
+inmcm4_hhpdif2(inmcm4_hhpdif2<0)=0;
+inmcm4_hhpdif2(inmcm4_hhpdif2>0)=1;
+MIROC5_hhpdif2(MIROC5_hhpdif2<0)=0;
+MIROC5_hhpdif2(MIROC5_hhpdif2>0)=1;
+MIROC_ESM_hhpdif2(MIROC_ESM_hhpdif2<0)=0;
+MIROC_ESM_hhpdif2(MIROC_ESM_hhpdif2>0)=1;
+MIROC_ESM_CHEM_hhpdif2(MIROC_ESM_CHEM_hhpdif2<0)=0;
+MIROC_ESM_CHEM_hhpdif2(MIROC_ESM_CHEM_hhpdif2>0)=1;
+MRI_CGCM3_hhpdif2(MRI_CGCM3_hhpdif2<0)=0;
+MRI_CGCM3_hhpdif2(MRI_CGCM3_hhpdif2>0)=1;
+MRI_ESM1_hhpdif2(MRI_ESM1_hhpdif2<0)=0;
+MRI_ESM1_hhpdif2(MRI_ESM1_hhpdif2>0)=1;
+NorESM1_M_hhpdif2(NorESM1_M_hhpdif2<0)=0;
+NorESM1_M_hhpdif2(NorESM1_M_hhpdif2>0)=1;
+[m,n]=size(BCC_CSM_hhpdif2);
+BCC_CSM_hhpdif2_r=reshape(BCC_CSM_hhpdif2,[m*n,1]);
+BNU_ESM_hhpdif2_r=reshape(BNU_ESM_hhpdif2,[m*n,1]);
+CanESM2_hhpdif2_r=reshape(CanESM2_hhpdif2,[m*n,1]);
+CNRM_CM5_hhpdif2_r=reshape(CNRM_CM5_hhpdif2,[m*n,1]);
+CSIRO_Mk_hhpdif2_r=reshape(CSIRO_Mk_hhpdif2,[m*n,1]);
+GFDL_CM3_hhpdif2_r=reshape(GFDL_CM3_hhpdif2,[m*n,1]);
+GFDL_ESM2G_hhpdif2_r=reshape(GFDL_ESM2G_hhpdif2,[m*n,1]);
+GFDL_ESM2M_hhpdif2_r=reshape(GFDL_ESM2M_hhpdif2,[m*n,1]);
+HadGEM2_CC_hhpdif2_r=reshape(HadGEM2_CC_hhpdif2,[m*n,1]);
+HadGEM2_ES_hhpdif2_r=reshape(HadGEM2_ES_hhpdif2,[m*n,1]);
+inmcm4_hhpdif2_r=reshape(inmcm4_hhpdif2,[m*n,1]);
+MIROC5_hhpdif2_r=reshape(MIROC5_hhpdif2,[m*n,1]);
+MIROC_ESM_hhpdif2_r=reshape(MIROC_ESM_hhpdif2,[m*n,1]);
+MIROC_ESM_CHEM_hhpdif2_r=reshape(MIROC_ESM_CHEM_hhpdif2,[m*n,1]);
+MRI_CGCM3_hhpdif2_r=reshape(MRI_CGCM3_hhpdif2,[m*n,1]);
+MRI_ESM1_hhpdif2_r=reshape(MRI_ESM1_hhpdif2,[m*n,1]);
+NorESM1_M_hhpdif2_r=reshape(NorESM1_M_hhpdif2,[m*n,1]);
+hhpdif2_r=[BCC_CSM_hhpdif2_r,BNU_ESM_hhpdif2_r,CanESM2_hhpdif2_r,CNRM_CM5_hhpdif2_r,CSIRO_Mk_hhpdif2_r,GFDL_CM3_hhpdif2_r,GFDL_ESM2G_hhpdif2_r,GFDL_ESM2M_hhpdif2_r,HadGEM2_CC_hhpdif2_r,HadGEM2_ES_hhpdif2_r,inmcm4_hhpdif2_r,MIROC5_hhpdif2_r,MIROC_ESM_hhpdif2_r,MIROC_ESM_CHEM_hhpdif2_r,MRI_CGCM3_hhpdif2_r,MRI_ESM1_hhpdif2_r,NorESM1_M_hhpdif2_r];
+% The number of models with the same sign as averaged biaes in each pixel (H_EEP_n, 2nd frequency range)
+hhpdif2_r_nan=isnan(hhpdif2_r);
+hhpdif2_r_nan=single(hhpdif2_r_nan);
+hhpdif2_r_nan_sum=sum(hhpdif2_r_nan,2);
+hhpdif2_r_nan_sum_c=[hhpdif2_r,hhpdif2_r_nan_sum];
+[row,~]=size(hhpdif2_r);
+hhpdif2_count_0(row,1)=0;
+hhpdif2_count_1(row,1)=0;
+count=1;
+for i=1:row
+    if hhpdif2_r_nan_sum_c(i,18)==17
+        num_0=nan;
+        num_1=nan;
+    else
+        num_0=sum(hhpdif2_r(i,:)==0,2);
+        num_1=sum(hhpdif2_r(i,:)~=0,2);
+    end
+    hhpdif2_count_0(count,:)=num_0;
+    hhpdif2_count_1(count,:)=num_1;
+    count=count+1;
+    disp(i)
+end
+% Ratio of the number of models with the same sign as averaged biaes in each pixel to the number of total models (H_EEP_n, 2nd frequency range)
+hhpdif2_count_0_real=hhpdif2_count_0/17;
+hhpdif2_count_1_real=hhpdif2_count_1/17;
+hhpdif2_positive_pct=reshape(hhpdif2_count_0_real,[m,n]);
+hhpdif2_negative_pct=reshape(hhpdif2_count_1_real,[m,n]);
+% Prepare for significance test for averaged biases of H_EEP_n (3rd frequency range)
+BCC_CSM_hhpdif3(BCC_CSM_hhpdif3<0)=0;
+BCC_CSM_hhpdif3(BCC_CSM_hhpdif3>0)=1;
+BNU_ESM_hhpdif3(BNU_ESM_hhpdif3<0)=0;
+BNU_ESM_hhpdif3(BNU_ESM_hhpdif3>0)=1;
+CanESM2_hhpdif3(CanESM2_hhpdif3<0)=0;
+CanESM2_hhpdif3(CanESM2_hhpdif3>0)=1;
+CNRM_CM5_hhpdif3(CNRM_CM5_hhpdif3<0)=0;
+CNRM_CM5_hhpdif3(CNRM_CM5_hhpdif3>0)=1;
+CSIRO_Mk_hhpdif3(CSIRO_Mk_hhpdif3<0)=0;
+CSIRO_Mk_hhpdif3(CSIRO_Mk_hhpdif3>0)=1;
+GFDL_CM3_hhpdif3(GFDL_CM3_hhpdif3<0)=0;
+GFDL_CM3_hhpdif3(GFDL_CM3_hhpdif3>0)=1;
+GFDL_ESM2G_hhpdif3(GFDL_ESM2G_hhpdif3<0)=0;
+GFDL_ESM2G_hhpdif3(GFDL_ESM2G_hhpdif3>0)=1;
+GFDL_ESM2M_hhpdif3(GFDL_ESM2M_hhpdif3<0)=0;
+GFDL_ESM2M_hhpdif3(GFDL_ESM2M_hhpdif3>0)=1;
+HadGEM2_CC_hhpdif3(HadGEM2_CC_hhpdif3<0)=0;
+HadGEM2_CC_hhpdif3(HadGEM2_CC_hhpdif3>0)=1;
+HadGEM2_ES_hhpdif3(HadGEM2_ES_hhpdif3<0)=0;
+HadGEM2_ES_hhpdif3(HadGEM2_ES_hhpdif3>0)=1;
+inmcm4_hhpdif3(inmcm4_hhpdif3<0)=0;
+inmcm4_hhpdif3(inmcm4_hhpdif3>0)=1;
+MIROC5_hhpdif3(MIROC5_hhpdif3<0)=0;
+MIROC5_hhpdif3(MIROC5_hhpdif3>0)=1;
+MIROC_ESM_hhpdif3(MIROC_ESM_hhpdif3<0)=0;
+MIROC_ESM_hhpdif3(MIROC_ESM_hhpdif3>0)=1;
+MIROC_ESM_CHEM_hhpdif3(MIROC_ESM_CHEM_hhpdif3<0)=0;
+MIROC_ESM_CHEM_hhpdif3(MIROC_ESM_CHEM_hhpdif3>0)=1;
+MRI_CGCM3_hhpdif3(MRI_CGCM3_hhpdif3<0)=0;
+MRI_CGCM3_hhpdif3(MRI_CGCM3_hhpdif3>0)=1;
+MRI_ESM1_hhpdif3(MRI_ESM1_hhpdif3<0)=0;
+MRI_ESM1_hhpdif3(MRI_ESM1_hhpdif3>0)=1;
+NorESM1_M_hhpdif3(NorESM1_M_hhpdif3<0)=0;
+NorESM1_M_hhpdif3(NorESM1_M_hhpdif3>0)=1;
+[m,n]=size(BCC_CSM_hhpdif3);
+BCC_CSM_hhpdif3_r=reshape(BCC_CSM_hhpdif3,[m*n,1]);
+BNU_ESM_hhpdif3_r=reshape(BNU_ESM_hhpdif3,[m*n,1]);
+CanESM2_hhpdif3_r=reshape(CanESM2_hhpdif3,[m*n,1]);
+CNRM_CM5_hhpdif3_r=reshape(CNRM_CM5_hhpdif3,[m*n,1]);
+CSIRO_Mk_hhpdif3_r=reshape(CSIRO_Mk_hhpdif3,[m*n,1]);
+GFDL_CM3_hhpdif3_r=reshape(GFDL_CM3_hhpdif3,[m*n,1]);
+GFDL_ESM2G_hhpdif3_r=reshape(GFDL_ESM2G_hhpdif3,[m*n,1]);
+GFDL_ESM2M_hhpdif3_r=reshape(GFDL_ESM2M_hhpdif3,[m*n,1]);
+HadGEM2_CC_hhpdif3_r=reshape(HadGEM2_CC_hhpdif3,[m*n,1]);
+HadGEM2_ES_hhpdif3_r=reshape(HadGEM2_ES_hhpdif3,[m*n,1]);
+inmcm4_hhpdif3_r=reshape(inmcm4_hhpdif3,[m*n,1]);
+MIROC5_hhpdif3_r=reshape(MIROC5_hhpdif3,[m*n,1]);
+MIROC_ESM_hhpdif3_r=reshape(MIROC_ESM_hhpdif3,[m*n,1]);
+MIROC_ESM_CHEM_hhpdif3_r=reshape(MIROC_ESM_CHEM_hhpdif3,[m*n,1]);
+MRI_CGCM3_hhpdif3_r=reshape(MRI_CGCM3_hhpdif3,[m*n,1]);
+MRI_ESM1_hhpdif3_r=reshape(MRI_ESM1_hhpdif3,[m*n,1]);
+NorESM1_M_hhpdif3_r=reshape(NorESM1_M_hhpdif3,[m*n,1]);
+hhpdif3_r=[BCC_CSM_hhpdif3_r,BNU_ESM_hhpdif3_r,CanESM2_hhpdif3_r,CNRM_CM5_hhpdif3_r,CSIRO_Mk_hhpdif3_r,GFDL_CM3_hhpdif3_r,GFDL_ESM2G_hhpdif3_r,GFDL_ESM2M_hhpdif3_r,HadGEM2_CC_hhpdif3_r,HadGEM2_ES_hhpdif3_r,inmcm4_hhpdif3_r,MIROC5_hhpdif3_r,MIROC_ESM_hhpdif3_r,MIROC_ESM_CHEM_hhpdif3_r,MRI_CGCM3_hhpdif3_r,MRI_ESM1_hhpdif3_r,NorESM1_M_hhpdif3_r];
+% The number of models with the same sign as averaged biaes in each pixel (H_EEP_n, 3rd frequency range)
+hhpdif3_r_nan=isnan(hhpdif3_r);
+hhpdif3_r_nan=single(hhpdif3_r_nan);
+hhpdif3_r_nan_sum=sum(hhpdif3_r_nan,2);
+hhpdif3_r_nan_sum_c=[hhpdif3_r,hhpdif3_r_nan_sum];
+[row,~]=size(hhpdif3_r);
+hhpdif3_count_0(row,1)=0;
+hhpdif3_count_1(row,1)=0;
+count=1;
+for i=1:row
+    if hhpdif3_r_nan_sum_c(i,18)==17
+        num_0=nan;
+        num_1=nan;
+    else
+        num_0=sum(hhpdif3_r(i,:)==0,2);
+        num_1=sum(hhpdif3_r(i,:)~=0,2);
+    end
+    hhpdif3_count_0(count,:)=num_0;
+    hhpdif3_count_1(count,:)=num_1;
+    count=count+1;
+    disp(i)
+end
+% Ratio of the number of models with the same sign as averaged biaes in each pixel to the number of total models (H_EEP_n, 3rd frequency range)
+hhpdif3_count_0_real=hhpdif3_count_0/17;
+hhpdif3_count_1_real=hhpdif3_count_1/17;
+hhpdif3_positive_pct=reshape(hhpdif3_count_0_real,[m,n]);
+hhpdif3_negative_pct=reshape(hhpdif3_count_1_real,[m,n]);
+% Define the range of average biases of H_EEP_n
+hhpdif_max1=max(max(avg_hhpdif1));
+hhpdif_max2=max(max(avg_hhpdif2));
+hhpdif_max3=max(max(avg_hhpdif3));
+hhpdif_maxn=[hhpdif_max1,hhpdif_max2,hhpdif_max3];
+hhpdif_MAX=max(hhpdif_maxn);
+hhpdif_min1=min(min(avg_hhpdif1));
+hhpdif_min2=min(min(avg_hhpdif2));
+hhpdif_min3=min(min(avg_hhpdif3));
+hhpdif_minn=[hhpdif_min1,hhpdif_min2,hhpdif_min3];
+hhpdif_MIN=min(hhpdif_minn);
+% Remove regions with SSM less than 0.1 for H_SEP_n
+avg_mhpdif1(find(mean_SM<0.1))=-4;
+avg_mhpdif2(find(mean_SM<0.1))=4;
+avg_mhpdif3(find(mean_SM<0.1))=4;
+% Significance test by stippling for averaged biases for H_SEP_n
+mhpdif1_positive_pct(find(mean_SM<0.1))=nan;
+mhpdif1_negative_pct(find(mean_SM<0.1))=nan;
+mhp_mask11=(mhpdif1_positive_pct==1) | (mhpdif1_negative_pct==1);
+mhp_mask12=((mhpdif1_positive_pct>=14/17) & (mhpdif1_positive_pct<1)) | ((mhpdif1_negative_pct>=14/17) & (mhpdif1_negative_pct<1));
+mhpdif2_positive_pct(find(mean_SM<0.1))=nan;
+mhpdif2_negative_pct(find(mean_SM<0.1))=nan;
+mhp_mask21=(mhpdif2_positive_pct==1) | (mhpdif2_negative_pct==1);
+mhp_mask22=((mhpdif2_positive_pct>=14/17) & (mhpdif2_positive_pct<1)) | ((mhpdif2_negative_pct>=14/17) & (mhpdif2_negative_pct<1));
+mhpdif3_positive_pct(find(mean_SM<0.1))=nan;
+mhpdif3_negative_pct(find(mean_SM<0.1))=nan;
+mhp_mask31=(mhpdif3_positive_pct==1) | (mhpdif3_negative_pct==1);
+mhp_mask32=((mhpdif3_positive_pct>=14/17) & (mhpdif3_positive_pct<1)) | ((mhpdif3_negative_pct>=14/17) & (mhpdif3_negative_pct<1));
+% Remove regions with SSM less than 0.1 for H_EEP_n
+avg_hhpdif1(find(mean_SM<0.1))=1;
+avg_hhpdif2(find(mean_SM<0.1))=1;
+avg_hhpdif3(find(mean_SM<0.1))=-1;
+% Significance test by stippling for averaged biases for H_EEP_n
+hhpdif1_positive_pct(find(mean_SM<0.1))=nan;
+hhpdif1_negative_pct(find(mean_SM<0.1))=nan;
+hhp_mask11=(hhpdif1_positive_pct==1) | (hhpdif1_negative_pct==1);
+hhp_mask12=((hhpdif1_positive_pct>=14/17) & (hhpdif1_positive_pct<1)) | ((hhpdif1_negative_pct>=14/17) & (hhpdif1_negative_pct<1));
+hhpdif2_positive_pct(find(mean_SM<0.1))=nan;
+hhpdif2_negative_pct(find(mean_SM<0.1))=nan;
+hhp_mask21=(hhpdif2_positive_pct==1) | (hhpdif2_negative_pct==1);
+hhp_mask22=((hhpdif2_positive_pct>=14/17) & (hhpdif2_positive_pct<1)) | ((hhpdif2_negative_pct>=14/17) & (hhpdif2_negative_pct<1));
+hhpdif3_positive_pct(find(mean_SM<0.1))=nan;
+hhpdif3_negative_pct(find(mean_SM<0.1))=nan;
+hhp_mask31=(hhpdif3_positive_pct==1) | (hhpdif3_negative_pct==1);
+hhp_mask32=((hhpdif3_positive_pct>=14/17) & (hhpdif3_positive_pct<1)) | ((hhpdif3_negative_pct>=14/17) & (hhpdif3_negative_pct<1));
+% Global map of averaged biases for H_SEP_n and H_EEP_n over different time scales (Figure 7)
+detalgx=lonSMAP;
+detalgy=latSMAP;
+[LON,LAT]=meshgrid(detalgx,detalgy);
+subplot(2,3,1)
+map1=pcolor(detalgx,detalgy,avg_mhpdif1);
+set(map1,'alphadata',~isnan(avg_mhpdif1))
+colorbar
+caxis([-4,4])
+shading interp
+hold on
+mhp_h11=stipple(LON,LAT,mhp_mask11,'density',125,'color','k','marker','+','markersize',3);
+mhp_h12=stipple(LON,LAT,mhp_mask12,'density',125,'color','k','marker','.','markersize',3);
+hold off
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(a)')
+ylabel('SSM_n/(ET_n+P_n) diff')
+title('1/30<f<1/7 day^{-1}')
+subplot(2,3,2)
+map2=pcolor(detalgx,detalgy,avg_mhpdif2);
+set(map2,'alphadata',~isnan(avg_mhpdif2))
+colorbar
+caxis([-4,4])
+shading interp
+hold on
+mhp_h21=stipple(LON,LAT,mhp_mask21,'density',125,'color','k','marker','+','markersize',3);
+mhp_h22=stipple(LON,LAT,mhp_mask22,'density',125,'color','k','marker','.','markersize',3);
+hold off
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(b)')
+title('1/90<f<1/30 day^{-1}')
+subplot(2,3,3)
+map3=pcolor(detalgx,detalgy,avg_mhpdif3);
+set(map3,'alphadata',~isnan(avg_mhpdif3))
+colorbar
+caxis([-4,4])
+shading interp
+hold on
+mhp_h31=stipple(LON,LAT,mhp_mask31,'density',125,'color','k','marker','+','markersize',3);
+mhp_h32=stipple(LON,LAT,mhp_mask32,'density',125,'color','k','marker','.','markersize',3);
+hold off
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(c)')
+title('1/365<f<1/90 day^{-1}')
+subplot(2,3,4)
+map1=pcolor(detalgx,detalgy,avg_hhpdif1);
+set(map1,'alphadata',~isnan(avg_hhpdif1))
+colorbar
+caxis([-1,1])
+shading interp
+hold on
+hhp_h11=stipple(LON,LAT,hhp_mask11,'density',125,'color','k','marker','+','markersize',3);
+hhp_h12=stipple(LON,LAT,hhp_mask12,'density',125,'color','k','marker','.','markersize',3);
+hold off
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(d)')
+ylabel('ET_n/(ET_n+P_n) diff')
+subplot(2,3,5)
+map2=pcolor(detalgx,detalgy,avg_hhpdif2);
+set(map2,'alphadata',~isnan(avg_hhpdif2))
+colorbar
+caxis([-1,1])
+shading interp
+hold on
+hhp_h21=stipple(LON,LAT,hhp_mask21,'density',125,'color','k','marker','+','markersize',3);
+hhp_h22=stipple(LON,LAT,hhp_mask22,'density',125,'color','k','marker','.','markersize',3);
+hold off
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(e)')
+subplot(2,3,6)
+map3=pcolor(detalgx,detalgy,avg_hhpdif3);
+set(map3,'alphadata',~isnan(avg_hhpdif3))
+colorbar
+caxis([-1,1])
+shading interp
+hold on
+hhp_h31=stipple(LON,LAT,hhp_mask31,'density',125,'color','k','marker','+','markersize',3);
+hhp_h32=stipple(LON,LAT,hhp_mask32,'density',125,'color','k','marker','.','markersize',3);
+hold off
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(f)')
+axes('position',[0.41,0.14,0.15,0.34])
+axis off
+colorbar('eastoutside')
+caxis([-4,4])
+hold on
+axes('position',[0.31,0.24,0.15,0.34])
+axis off
+colorbar('eastoutside')
+caxis([-1,1])
+hold off
+% Standard deviation of H_SEP_n across all models
+count=1;
+avg_mhpr1(406,964)=0;
+std_mhpr1(406,964)=0;
+for i=1:406
+    std_f1(1,:)=BCC_CSM_mhpr1(i,:);
+    std_f1(2,:)=BNU_ESM_mhpr1(i,:);
+    std_f1(3,:)=CanESM2_mhpr1(i,:);
+    std_f1(4,:)=CNRM_CM5_mhpr1(i,:);
+    std_f1(5,:)=CSIRO_Mk_mhpr1(i,:);
+    std_f1(6,:)=GFDL_CM3_mhpr1(i,:);
+    std_f1(7,:)=GFDL_ESM2G_mhpr1(i,:);
+    std_f1(8,:)=GFDL_ESM2M_mhpr1(i,:);
+    std_f1(9,:)=HadGEM2_CC_mhpr1(i,:);
+    std_f1(10,:)=HadGEM2_ES_mhpr1(i,:);
+    std_f1(11,:)=inmcm4_mhpr1(i,:);
+    std_f1(12,:)=MIROC5_mhpr1(i,:);
+    std_f1(13,:)=MIROC_ESM_mhpr1(i,:);
+    std_f1(14,:)=MIROC_ESM_CHEM_mhpr1(i,:);
+    std_f1(15,:)=MRI_CGCM3_mhpr1(i,:);
+    std_f1(16,:)=MRI_ESM1_mhpr1(i,:);
+    std_f1(17,:)=NorESM1_M_mhpr1(i,:);
+    avg_mhpr_f1=mean(std_f1);
+    avg_mhpr1(count,:)=avg_mhpr_f1;
+    std_mhpr_f1=std(std_f1);
+    std_mhpr1(count,:)=std_mhpr_f1;
+    count=count+1;
+end
+count=1;
+avg_mhpr2(406,964)=0;
+std_mhpr2(406,964)=0;
+for i=1:406
+    std_f2(1,:)=BCC_CSM_mhpr2(i,:);
+    std_f2(2,:)=BNU_ESM_mhpr2(i,:);
+    std_f2(3,:)=CanESM2_mhpr2(i,:);
+    std_f2(4,:)=CNRM_CM5_mhpr2(i,:);
+    std_f2(5,:)=CSIRO_Mk_mhpr2(i,:);
+    std_f2(6,:)=GFDL_CM3_mhpr2(i,:);
+    std_f2(7,:)=GFDL_ESM2G_mhpr2(i,:);
+    std_f2(8,:)=GFDL_ESM2M_mhpr2(i,:);
+    std_f2(9,:)=HadGEM2_CC_mhpr2(i,:);
+    std_f2(10,:)=HadGEM2_ES_mhpr2(i,:);
+    std_f2(11,:)=inmcm4_mhpr2(i,:);
+    std_f2(12,:)=MIROC5_mhpr2(i,:);
+    std_f2(13,:)=MIROC_ESM_mhpr2(i,:);
+    std_f2(14,:)=MIROC_ESM_CHEM_mhpr2(i,:);
+    std_f2(15,:)=MRI_CGCM3_mhpr2(i,:);
+    std_f2(16,:)=MRI_ESM1_mhpr2(i,:);
+    std_f2(17,:)=NorESM1_M_mhpr2(i,:);
+    avg_mhpr_f2=mean(std_f2);
+    avg_mhpr2(count,:)=avg_mhpr_f2;
+    std_mhpr_f2=std(std_f2);
+    std_mhpr2(count,:)=std_mhpr_f2;
+    count=count+1;
+end
+count=1;
+avg_mhpr3(406,964)=0;
+std_mhpr3(406,964)=0;
+for i=1:406
+    std_f3(1,:)=BCC_CSM_mhpr3(i,:);
+    std_f3(2,:)=BNU_ESM_mhpr3(i,:);
+    std_f3(3,:)=CanESM2_mhpr3(i,:);
+    std_f3(4,:)=CNRM_CM5_mhpr3(i,:);
+    std_f3(5,:)=CSIRO_Mk_mhpr3(i,:);
+    std_f3(6,:)=GFDL_CM3_mhpr3(i,:);
+    std_f3(7,:)=GFDL_ESM2G_mhpr3(i,:);
+    std_f3(8,:)=GFDL_ESM2M_mhpr3(i,:);
+    std_f3(9,:)=HadGEM2_CC_mhpr3(i,:);
+    std_f3(10,:)=HadGEM2_ES_mhpr3(i,:);
+    std_f3(11,:)=inmcm4_mhpr3(i,:);
+    std_f3(12,:)=MIROC5_mhpr3(i,:);
+    std_f3(13,:)=MIROC_ESM_mhpr3(i,:);
+    std_f3(14,:)=MIROC_ESM_CHEM_mhpr3(i,:);
+    std_f3(15,:)=MRI_CGCM3_mhpr3(i,:);
+    std_f3(16,:)=MRI_ESM1_mhpr3(i,:);
+    std_f3(17,:)=NorESM1_M_mhpr3(i,:);
+    avg_mhpr_f3=mean(std_f3);
+    avg_mhpr3(count,:)=avg_mhpr_f3;
+    std_mhpr_f3=std(std_f3);
+    std_mhpr3(count,:)=std_mhpr_f3;
+    count=count+1;
+end
+% Standard deviation of H_EEP_n across all models
+count=1;
+avg_hhpr1(406,964)=0;
+std_hhpr1(406,964)=0;
+for i=1:406
+    std_f1(1,:)=BCC_CSM_hhpr1(i,:);
+    std_f1(2,:)=BNU_ESM_hhpr1(i,:);
+    std_f1(3,:)=CanESM2_hhpr1(i,:);
+    std_f1(4,:)=CNRM_CM5_hhpr1(i,:);
+    std_f1(5,:)=CSIRO_Mk_hhpr1(i,:);
+    std_f1(6,:)=GFDL_CM3_hhpr1(i,:);
+    std_f1(7,:)=GFDL_ESM2G_hhpr1(i,:);
+    std_f1(8,:)=GFDL_ESM2M_hhpr1(i,:);
+    std_f1(9,:)=HadGEM2_CC_hhpr1(i,:);
+    std_f1(10,:)=HadGEM2_ES_hhpr1(i,:);
+    std_f1(11,:)=inmcm4_hhpr1(i,:);
+    std_f1(12,:)=MIROC5_hhpr1(i,:);
+    std_f1(13,:)=MIROC_ESM_hhpr1(i,:);
+    std_f1(14,:)=MIROC_ESM_CHEM_hhpr1(i,:);
+    std_f1(15,:)=MRI_CGCM3_hhpr1(i,:);
+    std_f1(16,:)=MRI_ESM1_hhpr1(i,:);
+    std_f1(17,:)=NorESM1_M_hhpr1(i,:);
+    avg_hhpr_f1=mean(std_f1);
+    avg_hhpr1(count,:)=avg_hhpr_f1;
+    std_hhpr_f1=std(std_f1);
+    std_hhpr1(count,:)=std_hhpr_f1;
+    count=count+1;
+end
+count=1;
+avg_hhpr2(406,964)=0;
+std_hhpr2(406,964)=0;
+for i=1:406
+    std_f2(1,:)=BCC_CSM_hhpr2(i,:);
+    std_f2(2,:)=BNU_ESM_hhpr2(i,:);
+    std_f2(3,:)=CanESM2_hhpr2(i,:);
+    std_f2(4,:)=CNRM_CM5_hhpr2(i,:);
+    std_f2(5,:)=CSIRO_Mk_hhpr2(i,:);
+    std_f2(6,:)=GFDL_CM3_hhpr2(i,:);
+    std_f2(7,:)=GFDL_ESM2G_hhpr2(i,:);
+    std_f2(8,:)=GFDL_ESM2M_hhpr2(i,:);
+    std_f2(9,:)=HadGEM2_CC_hhpr2(i,:);
+    std_f2(10,:)=HadGEM2_ES_hhpr2(i,:);
+    std_f2(11,:)=inmcm4_hhpr2(i,:);
+    std_f2(12,:)=MIROC5_hhpr2(i,:);
+    std_f2(13,:)=MIROC_ESM_hhpr2(i,:);
+    std_f2(14,:)=MIROC_ESM_CHEM_hhpr2(i,:);
+    std_f2(15,:)=MRI_CGCM3_hhpr2(i,:);
+    std_f2(16,:)=MRI_ESM1_hhpr2(i,:);
+    std_f2(17,:)=NorESM1_M_hhpr2(i,:);
+    avg_hhpr_f2=mean(std_f2);
+    avg_hhpr2(count,:)=avg_hhpr_f2;
+    std_hhpr_f2=std(std_f2);
+    std_hhpr2(count,:)=std_hhpr_f2;
+    count=count+1;
+end
+count=1;
+avg_hhpr3(406,964)=0;
+std_hhpr3(406,964)=0;
+for i=1:406
+    std_f3(1,:)=BCC_CSM_hhpr3(i,:);
+    std_f3(2,:)=BNU_ESM_hhpr3(i,:);
+    std_f3(3,:)=CanESM2_hhpr3(i,:);
+    std_f3(4,:)=CNRM_CM5_hhpr3(i,:);
+    std_f3(5,:)=CSIRO_Mk_hhpr3(i,:);
+    std_f3(6,:)=GFDL_CM3_hhpr3(i,:);
+    std_f3(7,:)=GFDL_ESM2G_hhpr3(i,:);
+    std_f3(8,:)=GFDL_ESM2M_hhpr3(i,:);
+    std_f3(9,:)=HadGEM2_CC_hhpr3(i,:);
+    std_f3(10,:)=HadGEM2_ES_hhpr3(i,:);
+    std_f3(11,:)=inmcm4_hhpr3(i,:);
+    std_f3(12,:)=MIROC5_hhpr3(i,:);
+    std_f3(13,:)=MIROC_ESM_hhpr3(i,:);
+    std_f3(14,:)=MIROC_ESM_CHEM_hhpr3(i,:);
+    std_f3(15,:)=MRI_CGCM3_hhpr3(i,:);
+    std_f3(16,:)=MRI_ESM1_hhpr3(i,:);
+    std_f3(17,:)=NorESM1_M_hhpr3(i,:);
+    avg_hhpr_f3=mean(std_f3);
+    avg_hhpr3(count,:)=avg_hhpr_f3;
+    std_hhpr_f3=std(std_f3);
+    std_hhpr3(count,:)=std_hhpr_f3;
+    count=count+1;
+end
+% Coefficient of variation of H_SEP_n across all models
+cv_mhpr1=std_mhpr1./avg_mhpr1;
+cv_mhpr2=std_mhpr2./avg_mhpr2;
+cv_mhpr3=std_mhpr3./avg_mhpr3;
+% Coefficient of variation of and H_EEP_n across all models
+cv_hhpr1=std_hhpr1./avg_hhpr1;
+cv_hhpr2=std_hhpr2./avg_hhpr2;
+cv_hhpr3=std_hhpr3./avg_hhpr3;
+% Define the range of coefficient of variation of H_SEP_n
+cv_mhpr_max1=max(max(cv_mhpr1));
+cv_mhpr_max2=max(max(cv_mhpr2));
+cv_mhpr_max3=max(max(cv_mhpr3));
+cv_mhpr_maxn=[cv_mhpr_max1,cv_mhpr_max2,cv_mhpr_max3];
+cv_mhpr_MAX=max(cv_mhpr_maxn);
+% Define the range of coefficient of variation of H_EEP_n
+cv_hhpr_max1=max(max(cv_hhpr1));
+cv_hhpr_max2=max(max(cv_hhpr2));
+cv_hhpr_max3=max(max(cv_hhpr3));
+cv_hhpr_maxn=[cv_hhpr_max1,cv_hhpr_max2,cv_hhpr_max3];
+cv_hhpr_MAX=max(cv_hhpr_maxn);
+% Remove regions with SSM less than 0.1
+cv_mhpr1(find(mean_SM<0.1))=-0.1;
+cv_mhpr2(find(mean_SM<0.1))=-0.1;
+cv_mhpr3(find(mean_SM<0.1))=-0.1;
+cv_hhpr1(find(mean_SM<0.1))=-0.1;
+cv_hhpr2(find(mean_SM<0.1))=-0.1;
+cv_hhpr3(find(mean_SM<0.1))=-0.1;
+% Global map of coefficient of variation for H_SEP_n and H_EEP_n over different time scales (Figure S2)
+detalgx=lonSMAP;
+detalgy=latSMAP;
+[LON,LAT]=meshgrid(detalgx,detalgy);
+subplot(2,3,1)
+map1=pcolor(detalgx,detalgy,cv_mhpr1);
+set(map1,'alphadata',~isnan(cv_mhpr1))
+colorbar
+caxis([-0.1,1])
+shading interp
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(a)')
+ylabel('H_S_E_P_n CV')
+title('1/30<f<1/7 day^{-1}')
+subplot(2,3,2)
+map2=pcolor(detalgx,detalgy,cv_mhpr2);
+set(map2,'alphadata',~isnan(cv_mhpr2))
+colorbar
+caxis([-0.1,1])
+shading interp
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(b)')
+title('1/90<f<1/30 day^{-1}')
+subplot(2,3,3)
+map3=pcolor(detalgx,detalgy,cv_mhpr3);
+set(map3,'alphadata',~isnan(cv_mhpr3))
+colorbar
+caxis([-0.1,1])
+shading interp
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(c)')
+title('1/365<f<1/90 day^{-1}')
+subplot(2,3,4)
+map4=pcolor(detalgx,detalgy,cv_hhpr1);
+set(map4,'alphadata',~isnan(cv_hhpr1))
+colorbar
+caxis([-0.1,1])
+shading interp
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(d)')
+ylabel('H_E_E_P_n CV')
+subplot(2,3,5)
+map5=pcolor(detalgx,detalgy,cv_hhpr2);
+set(map5,'alphadata',~isnan(cv_hhpr2))
+colorbar
+caxis([-0.1,1])
+shading interp
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(e)')
+subplot(2,3,6)
+map6=pcolor(detalgx,detalgy,cv_hhpr3);
+set(map6,'alphadata',~isnan(cv_hhpr3))
+colorbar
+caxis([-0.1,1])
+shading interp
+set(gca,'XTickLabel','')
+set(gca,'YTickLabel','')
+xlabel('(f)')
+axes('position',[0.81,0.14,0.15,0.76])
+axis off
+colorbar('eastoutside')
+caxis([0,1])
